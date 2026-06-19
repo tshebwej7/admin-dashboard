@@ -148,3 +148,34 @@ th {
 tr {
     border-bottom: 1px solid #ddd;
 }
+
+/* dark mode styles */
+body.dark-mode {
+    background-color: #111827;
+    color: white;
+}
+
+/* dark mode sidebar */
+body.dark-mode .sidebar {
+    background-color: #0f172a;
+}
+
+/* dark mode cards */
+body.dark-mode .card {
+    background-color: #1f2937;
+}
+
+/* dark mode chart containers */
+body.dark-mode .chart-container {
+    background-color: #1f2937;
+}
+
+/* order table dark mode */
+body.dark-mode .recent-orders {
+    background-color: #1f2937;
+}
+
+/* dark mode table header */
+body.dark-mode th {
+    background-color: #374151;
+}
