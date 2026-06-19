@@ -37,6 +37,11 @@ body {
 .sidebar a {
     text-decoration: none;
     color: white;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #60a5fa;
 }
 
 /* Main Content Styles */
@@ -55,12 +60,16 @@ body {
 
 /* Search box */
 .search-input {
-    padding: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 /* Dark Mode Styles */
 .theme-toggle {
     padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -130,6 +139,21 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
+}
+
+/* table hover effect */
+tbody tr:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+
+/* for DARK MODE */
+body.dark-mode tbody tr:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+
+.chart-container h2,
+.recent-orders h2 {
+    margin-bottom: 1rem;
 }
 
 /* cells */
@@ -219,3 +243,14 @@ body.dark-mode th {
 .table-container {
     overflow-x: auto;
 }
+
+/* smooth transition */
+body,
+.card,
+.chart-container,
+.recent-orders,
+.sidebar,
+.theme-toggle {
+    transition: all 0.3s ease;
+}
+
