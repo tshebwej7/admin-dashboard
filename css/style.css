@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #1f2937;
+    color: white;
+    padding: 2rem;
+}
+
+/* logo */
+.logo {
+    margin-bottom: 2rem;
+}
+
+/* Navigation Styles */
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 1rem;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* Search box */
+.search-input {
+    padding: 10px;
+}
+
+/* Dark Mode Styles */
+.theme-toggle {
+    padding: 10px 15px;
+    cursor: pointer;
+}
